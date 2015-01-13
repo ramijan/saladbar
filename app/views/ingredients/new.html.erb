@@ -1,0 +1,12 @@
+<h2>Add new ingredient</h2>
+
+<%= form_for @ingredient do |i| %>
+  <%= i.label :name %> <%= i.text_field :name %><br>
+  <%= i.label :ingredient_type %> <%= i.text_field :ingredient_type %><br>
+  <%= i.label :quantity %> <%= i.text_field :quantity %><br>
+  <%= i.label :units %> <%= i.text_field :units %><br>
+  <%= i.label :price_per_unit %> <%= i.text_field :price_per_unit %><br><br>
+  <%= i.submit "Add this ingredient" %><br><br>
+<% end %>
+
+<%= link_to "Back to list", ingredients_path %>

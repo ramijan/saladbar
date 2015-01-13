@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Ingredient.create(name:'Tomato', ingredient_type:'Fruit', units:'lbs', quantity:10, price_per_unit:2)
+Ingredient.create(name:'Sugar', ingredient_type:'Table', units:'lbs', quantity:5, price_per_unit:1)

@@ -1,0 +1,8 @@
+<h2>Ingredient details</h2>
+
+<h5><%= @ingredient.name %></h5>
+<h5>Type: <%= @ingredient.ingredient_type %></h5>
+<h5>Amount: <%= @ingredient.quantity %> <%= @ingredient.units %></h5>
+<h5>Price: $<%= @ingredient.price_per_unit %></h5>
+
+<%= link_to "Back", ingredients_path %>
